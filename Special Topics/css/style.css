@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    color: grey;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 50%;
+    background-color: #ffffff; /* Substitua pela imagem desejada */
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text {
+    width: 50%;
+    padding: 0 20px;
+    margin-right: 10%;
+}
+
+h1 {
+    display: flex ;
+    color: #333;
+    align-items: center;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+    
+.section2 {
+    
+    color: #333;
+    text-align: center;
+}
+
+.section2 .google-map {
+    height: 300px; /* Ajuste conforme necessário */
+    background-color: #ffffff; /* Adicione sua própria estilização do Google Maps */
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section3 {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box {
+    text-align: left;
+    width: 15%;
+    height: 200px;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: blue;
+    color: #f5f5f5;
+}
+
+.section4 {
+    text-align: center;
+} 
+
+
+.section4 .small-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.small-box {
+    width: 20%;
+    height: 150px;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    width: 30%;
+}
+
+.footer-text {
+    width: 60%;
+    text-align: right;
+}
+
+.logo {
+    width: 50px;
+    color: #ddd;
+    
+}
+
+img {
+    justify-content: center;
+}
+
+.footer-logo {
+    width: 50px;
+    color: #ddd;
+}
+
+footer {
+    background-color: gray;
+}
+
+.draggable {
+    align-self: center;
+    display: flex;
+    width: 100px;
+    height: 50px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: grab;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.droppable {
+
+     
+    width: 300px;
+    height: 150px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    user-select: none;;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+
+.arrastar {
+    display: flex;
+    justify-content: center;
+}
